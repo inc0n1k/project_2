@@ -1,0 +1,53 @@
+/** {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    outline: none;*/
+/*}*/
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 5px black double;
+    width: calc(100% - 30px);
+    height: auto;
+    top: 60px;
+    margin-left: 15px;
+    justify-content: center;
+}
+
+.creat {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: x-small;
+    font-family: "Comic Sans MS", sans-serif;
+    animation: crt-1 5s ease-in-out infinite;
+}
+
+@keyframes crt-1 {
+    0% {
+        color: red;
+        /*font-size: 15px;*/
+        /*transform: rotate(45grad);*/
+    }
+    25% {
+        color: white;
+        /*font-size: 13px;*/
+    }
+    50% {
+        color: red;
+        /*font-size: 15px;*/
+        /*transform: rotate(-45grad);*/
+
+    }
+    75% {
+        color: white;
+        /*font-size: 13px;*/
+    }
+    100% {
+        color: red;
+        /*font-size: 15px;*/
+        /*transform: rotate(45grad);*/
+    }
+}

@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    left: 0;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+}
+
+.logo {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+}
+
+.basket {
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+}
+
+.right_head {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-right: 20px;
+}
+
+.calc_prod_in_basket {
+    display: flex;
+    position: absolute;
+    background-color: red;
+    left: 40px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.calc_prod_in_basket a{
+    display: flex;
+}
+
+.calc {
+    font-size: 10px;
+    font-family: "Comic Sans MS", sans-serif;
+    font-weight: bold;
+    display: flex;
+    margin: auto;
+}
+
+.login_info {
+    margin-left: 20px;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
